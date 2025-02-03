@@ -1,0 +1,8 @@
+name: WhiteList
+version: '1.0'
+main: org.legiosha.whiteList.WhiteList
+api-version: '1.20'
+authors: [ Legiosha ]
+commands:
+  whitelist:
+    aliases: wl
