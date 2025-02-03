@@ -23,6 +23,7 @@ public final class WhiteList extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
+        // Проверяем, включен ли вайтлист
         if (getConfig().getBoolean("whitelist-enabled")) {
             if (!getConfig().getStringList("players").contains(event.getPlayer().getName())) {
                 event.getPlayer().kickPlayer(getConfig().getConfigurationSection("messages").getString("kick-reason"));

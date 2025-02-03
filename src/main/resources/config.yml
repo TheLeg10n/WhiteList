@@ -5,8 +5,8 @@ messages:
   remove-message: 'Игрок был удален с белого списка'
   add-message: 'Игрок был добавлен в белый список'
 
-  remove-subcommand-help: 'Используйте: /whitelist remove [ник]'
-  add-subcommand-help: 'Используйте: /whitelist add [ник]'
+  remove-subcommand-help: 'Используйте: /whitelist remove <ник>'
+  add-subcommand-help: 'Используйте: /whitelist add <ник>'
 
   kick-message: 'Вы не в вайтлисте.'
 
