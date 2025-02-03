@@ -6,4 +6,4 @@ authors: [ Legiosha ]
 commands:
   whitelist:
     aliases: wl
-    usage: /whitelist <add/remove/disable/enable>
+    usage: /whitelist <add|remove|clear|disable|enable>
